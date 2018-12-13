@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-DCVD_SSE2=1;-DCVD_TESTS=OFF;-DCVD_PROGS=OFF;-DCVD_EXAMPLES=OFF;-GUnix Makefiles;/home/liu/Software/mrpt/mrpt/otherlibs/libcvd'

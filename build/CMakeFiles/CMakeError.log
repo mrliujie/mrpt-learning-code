@@ -1,0 +1,235 @@
+Determining if the function _mkgmtime exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfc07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfc07.dir/build.make CMakeFiles/cmTC_bfc07.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfc07.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h  -DCHECK_FUNCTION_EXISTS=_mkgmtime   -o CMakeFiles/cmTC_bfc07.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bfc07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfc07.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_mkgmtime    CMakeFiles/cmTC_bfc07.dir/CheckFunctionExists.c.o  -o cmTC_bfc07 -rdynamic -lm 
+CMakeFiles/cmTC_bfc07.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_mkgmtime'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bfc07.dir/build.make:97: recipe for target 'cmTC_bfc07' failed
+make[1]: *** [cmTC_bfc07] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bfc07/fast' failed
+make: *** [cmTC_bfc07/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb346/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb346.dir/build.make CMakeFiles/cmTC_fb346.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb346.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h  -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_fb346.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_fb346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb346.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca    CMakeFiles/cmTC_fb346.dir/CheckFunctionExists.c.o  -o cmTC_fb346 -rdynamic -lm 
+CMakeFiles/cmTC_fb346.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x24): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fb346.dir/build.make:97: recipe for target 'cmTC_fb346' failed
+make[1]: *** [cmTC_fb346] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fb346/fast' failed
+make: *** [cmTC_fb346/fast] Error 2
+
+
+Determining if the function gettid exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_434eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_434eb.dir/build.make CMakeFiles/cmTC_434eb.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_434eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h  -DCHECK_FUNCTION_EXISTS=gettid   -o CMakeFiles/cmTC_434eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_434eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_434eb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettid    CMakeFiles/cmTC_434eb.dir/CheckFunctionExists.c.o  -o cmTC_434eb -rdynamic -lm 
+CMakeFiles/cmTC_434eb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gettid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_434eb.dir/build.make:97: recipe for target 'cmTC_434eb' failed
+make[1]: *** [cmTC_434eb] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_434eb/fast' failed
+make: *** [cmTC_434eb/fast] Error 2
+
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4415/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4415.dir/build.make CMakeFiles/cmTC_a4415.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4415.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h  -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTC_a4415.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4415.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTC_a4415.dir/CheckFunctionExists.c.o  -o cmTC_a4415 -rdynamic -lm 
+CMakeFiles/cmTC_a4415.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a4415.dir/build.make:97: recipe for target 'cmTC_a4415' failed
+make[1]: *** [cmTC_a4415] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4415/fast' failed
+make: *** [cmTC_a4415/fast] Error 2
+
+
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_972bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_972bb.dir/build.make CMakeFiles/cmTC_972bb.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_972bb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h   -o CMakeFiles/cmTC_972bb.dir/CheckIncludeFile.c.o   -c /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: malloc/malloc.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_972bb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_972bb.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_972bb.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_972bb/fast' failed
+make: *** [cmTC_972bb/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d411.dir/build.make CMakeFiles/cmTC_7d411.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d411.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h   -o CMakeFiles/cmTC_7d411.dir/CheckIncludeFile.c.o   -c /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_7d411.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d411.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d411.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d411/fast' failed
+make: *** [cmTC_7d411/fast] Error 2
+
+
+Determining if the include file windows.h>
+#include <winusb.h exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee04f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee04f.dir/build.make CMakeFiles/cmTC_ee04f.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee04f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h   -o CMakeFiles/cmTC_ee04f.dir/CheckIncludeFile.c.o   -c /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ee04f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ee04f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ee04f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee04f/fast' failed
+make: *** [cmTC_ee04f/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab4e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab4e0.dir/build.make CMakeFiles/cmTC_ab4e0.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab4e0.dir/TestEndianess.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ab4e0.dir/TestEndianess.c.o   -c /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ab4e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab4e0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ab4e0.dir/TestEndianess.c.o  -o cmTC_ab4e0 -rdynamic 
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fff7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fff7f.dir/build.make CMakeFiles/cmTC_fff7f.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fff7f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h   -o CMakeFiles/cmTC_fff7f.dir/CheckSymbolExists.c.o   -c /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fff7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fff7f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fff7f.dir/CheckSymbolExists.c.o  -o cmTC_fff7f -rdynamic -lm 
+CMakeFiles/cmTC_fff7f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fff7f.dir/build.make:97: recipe for target 'cmTC_fff7f' failed
+make[1]: *** [cmTC_fff7f] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fff7f/fast' failed
+make: *** [cmTC_fff7f/fast] Error 2
+
+File /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pcap_get_pfring_id exists failed with the following output:
+Change Dir: /home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3c43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3c43.dir/build.make CMakeFiles/cmTC_f3c43.dir/build
+make[1]: Entering directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3c43.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp/math.h  -I /usr/include/wx-3.0 -I /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0  -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id   -o CMakeFiles/cmTC_f3c43.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3c43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3c43.dir/link.txt --verbose=1
+/usr/bin/cc  -I /usr/include/wx-3.0 -I /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0  -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id     CMakeFiles/cmTC_f3c43.dir/CheckFunctionExists.c.o  -o cmTC_f3c43 -rdynamic 
+CMakeFiles/cmTC_f3c43.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pcap_get_pfring_id'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3c43.dir/build.make:97: recipe for target 'cmTC_f3c43' failed
+make[1]: *** [cmTC_f3c43] Error 1
+make[1]: Leaving directory '/home/liu/Software/mrpt/mrpt/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f3c43/fast' failed
+make: *** [cmTC_f3c43/fast] Error 2
+
+
